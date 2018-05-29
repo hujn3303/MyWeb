@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome Register</title>
+<style type="text/css">
+
+body {
+	font-family:"Microsoft Yahei";
+	font-size:12px;
+	margin:0;
+    background: #fff url("images/need.jpg") 50% 0 repeat;}
+
+.item {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+	<div class="item">
+		<form action="register.jsp" method="post">
+			<input style='width:350px;height: 40px; background: none; border-radius:15px;border-color:#49976b ;outline:none;' type="text"
+				name="userName" placeholder="   请输入您的用户名" size=50 ><br><br>
+			<input style='width:350px;height: 40px; background: none; border-radius:15px;border-color:#49976b ;outline:none;' type="text"
+				name="accountNumber" placeholder="   请输入您的邮箱账号" size=50 ><br><br>
+			<input style='width:350px;height: 40px; background: none; border-radius:15px;border-color:#49976b ;outline:none;' type="password"
+				name="password" placeholder="   请输入您的密码" size="50"><br><br>
+			<input style='width:350px;height: 40px; background: none; border-radius:15px;border-color:#49976b ;outline:none;' type="password"
+				name="recoverPassword" placeholder="   请再次输入您的密码" size="50"><br><br>
+			<input
+				style='height: 40px; background: none;border-radius:15px; border-color: #49976b;outline:none;' type="submit"
+				value="     确定         ">
+			<input
+				style='height: 40px; background: none; border-radius:15px; border-color: #49976b;outline:none;' type="button"
+				value="     取消         " size="50"
+				onclick="javascrtpt:window.location.href='login.html'">
+			
+		</form>
+	</div>
+</body>
+</html>
